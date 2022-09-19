@@ -207,7 +207,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
                   if (files.isNotEmpty)
                     Expanded(
                         child: _mainControl(context,
-                            color: Colors.blue,
+                            color: Color(0xFF2C6678),
                             icon: Icons.check,
                             title: widget.labelsConfig[ScannerLabelsConfig
                                     .PDF_GALLERY_DONE_LABEL] ??
@@ -219,8 +219,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
                                 bottomLeft: Radius.circular(25)))),
                   Expanded(
                       child: _mainControl(context,
-                          color:
-                              files.isEmpty ? Colors.blue : Colors.cyanAccent,
+                          color: Color(0xFFF67A36),
                           icon: Icons.add_a_photo,
                           textColor:
                               files.isEmpty ? Colors.white : Colors.black,
