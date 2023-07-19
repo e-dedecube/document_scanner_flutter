@@ -224,8 +224,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
                       child: _mainControl(context,
                           color: Color(0xFFE58B57),
                           icon: Icons.add_a_photo,
-                          textColor:
-                              files.isEmpty ? Colors.white : Colors.black,
+                          textColor: Colors.white,
                           title: widget.labelsConfig[ScannerLabelsConfig
                                   .PDF_GALLERY_ADD_IMAGE_LABEL] ??
                               "Add Image",
