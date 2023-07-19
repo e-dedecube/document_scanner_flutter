@@ -106,7 +106,10 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
         onPressed: () {
           Navigator.pop(context);
         },
-        icon: const Icon(Icons.arrow_back, size: 24,),
+        icon: const Icon(
+          Icons.arrow_back,
+          size: 24,
+        ),
       ),
       title: Row(
         children: [
@@ -219,7 +222,7 @@ class _PdfGeneratotGalleryState extends State<PdfGeneratotGallery> {
                                 bottomLeft: Radius.circular(25)))),
                   Expanded(
                       child: _mainControl(context,
-                          color: Color(0xFFF67A36),
+                          color: Color(0xFFE58B57),
                           icon: Icons.add_a_photo,
                           textColor:
                               files.isEmpty ? Colors.white : Colors.black,
